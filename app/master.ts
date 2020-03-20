@@ -53,7 +53,7 @@ export class Master extends Component implements IValidated, Indexed<Person>
                      position: "relative"                    
                 }         
             },                                 
-                div({ class: layoutHeaderClass, style: { background: "black", borderBottom: "1px solid white" } },                    
+                div({ class: layoutHeaderClass, style: { background: "white", borderBottom: "1px solid white" } },                    
                     this.headerContent()
                 ),
                 div({                                        
@@ -61,7 +61,7 @@ export class Master extends Component implements IValidated, Indexed<Person>
                     style: {
                         ...media({ minWidth: MediaWidth.medium }, {alignItems:"center"}),                        
                         backgroundSize: 'fixed',                    
-                        background: "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('https://coronulator.s3.amazonaws.com/corona.jpg')",
+                        //background: "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('https://coronulator.s3.amazonaws.com/corona.jpg')",
                         width: '100%'                        
                     }
                 },                   
@@ -69,7 +69,7 @@ export class Master extends Component implements IValidated, Indexed<Person>
                         this.content(),                        
                     )                    
                 ),
-                div({ class: layoutFooterClass, style: { backgroundColor: "black"} },
+                div({ class: layoutFooterClass, style: { backgroundColor: "white"} },
                     this.footerContent()
                 )             
             )
@@ -180,7 +180,7 @@ export class Master extends Component implements IValidated, Indexed<Person>
                 },
                     "Will coronavirus kill me?"
                 ),
-                markdownElement({}, "Feel free to [email me](mailto:coronulator@gmail.com) improvements to this [editable calculator](https://stackblitz.com/edit/corona?file=app%2Fdata.ts).")
+                markdownElement({}, "An updated version of the calculator by ztips.")
             )
         )
     }
