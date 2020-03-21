@@ -173,6 +173,8 @@ export class Master extends Component implements IValidated, Indexed<Person>
 
     headerContent() {
         return (
+          ""
+          /*
             div({ class: "my-2 container" },
                 h1({
                     style: { cursor: "pointer" },
@@ -182,6 +184,7 @@ export class Master extends Component implements IValidated, Indexed<Person>
                 ),
                 markdownElement({}, "An updated version of the calculator by ztips.")
             )
+            */
         )
     }
 
