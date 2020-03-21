@@ -26,8 +26,8 @@ export const preconditionOptions: DataOption<number>[] = [
 
 export const diabeticOptions: DataOption<number>[] = [
   { value: 0, data: 0.002, label: "No" },
-  { value: 1, data: 0.004, label: "Type 1" },
-  { value: 1, data: 0.024, label: "Type 2" }
+  { value: 1, data: 0.004, label: "Good" },
+  { value: 1, data: 0.024, label: "Poor" }
 ]
 
 export const heartconditionOptions: DataOption<number>[] = [

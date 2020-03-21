@@ -11,8 +11,8 @@ export class Master extends Component implements IValidated, Indexed<Person>
 {    
     @Label ("Age") age = 4   
     @Label ("Respiratory") respiratory = 0
-    @Label ("Diabetic") diabetic = 0
-    @Label ("Heart Desease") heartCondition = 0    
+    @Label ("Diabetic Control") diabetic = 0
+    @Label ("Heart Disease") heartCondition = 0    
     @Label ("Social Contact") socialContact = 2    
     @Label ("Hygiene") hygiene = 1    
     @Label ("Gender") gender = 1
